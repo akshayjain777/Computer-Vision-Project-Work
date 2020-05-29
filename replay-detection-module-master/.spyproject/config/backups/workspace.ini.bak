@@ -1,0 +1,10 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+
+[main]
+version = 0.2.0
+recent_files = ['..\\bajaj.py', '..\\2nd highest in dictionary.py', '..\\Top5 in a dictionary using most common of counter.py', '..\\resurssive_function.py', '..\\ravel_in_numpy.py']
+

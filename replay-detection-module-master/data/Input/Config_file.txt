@@ -1,0 +1,24 @@
+[Input]
+VIDEO_FILE_PATH = ./data/Input/Video/
+#VIDEO_FILE_PATH = D:/comp/SM001_clips/np/
+#VIDEO_FILE_PATH = D:/ITP-Video Analytics/AO Backup/
+#VIDEO_FILE_PATH = D:/ITP-Video Analytics/AO_601/
+
+
+[Logo]
+Logo_Path = ./data/Input/Image/
+
+[French_Open]
+logo_file = fo.png
+gap = 1
+threshold = 0.48
+frame_range = 15
+
+[Australian_Open]
+logo_file = ao.png
+gap = 1
+threshold = 0.50
+frame_range = 15
+
+[Output]
+Output_file_path = ./data/Output/

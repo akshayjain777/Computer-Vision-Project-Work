@@ -1,0 +1,12 @@
+[Input]
+VIDEO_FILE_PATH = ./data/Input/Video/
+
+
+[Scoreboard_Extraction]
+name_list = ["Nadal","Thiem","Djokovic","Federer","Nishikori","Zverev","Medvedev","Tsitsipas"]
+model_file = ./data/model/frozen_east_text_detection.pb
+frame_len = 100
+
+[Output]
+Output_file_path = ./data/Output/
+
